@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rpi5"
+          fetch="https://github.com/Raspberry-Pi-5-Android"
+          revision="android-15" />
+
+  <project path="device/rpi/rpi5"
+           name="android_device_rpi_rpi5"
+           remote="rpi5" />
+
+  <project path="vendor/rpi/rpi5"
+           name="android_vendor_rpi_rpi5"
+           remote="rpi5" />
+
+  <project path="kernel/rpi/rpi5"
+           name="android_kernel_rpi_bcm2712"
+           remote="rpi5" />
+</manifest>

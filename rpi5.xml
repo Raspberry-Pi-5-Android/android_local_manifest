@@ -20,4 +20,11 @@
        Last commit before bb9f3ea, which moves to composer3 V4 (Android 16). -->
   <extend-project name="platform/external/drm_hwcomposer"
                   revision="4cadc91bc2f8133b60f5927d96cc64f0820fb285" />
+
+  <!-- minigbm: AOSP android-15.0.0_r1 plus Raspberry Pi 5 support (dumb-buffer
+       backend for vc4, allocator drops DRM master). -->
+  <remove-project name="platform/external/minigbm" />
+  <project path="external/minigbm"
+           name="android_external_minigbm"
+           remote="rpi5" />
 </manifest>

@@ -17,7 +17,7 @@
            remote="rpi5" />
 
   <!-- drm_hwcomposer: HWC3 (AIDL composer3 V3).
-       Commit terakhir sebelum bb9f3ea (pindah ke composer3 V4 / Android 16). -->
+       Last commit before bb9f3ea, which moves to composer3 V4 (Android 16). -->
   <extend-project name="platform/external/drm_hwcomposer"
                   revision="4cadc91bc2f8133b60f5927d96cc64f0820fb285" />
 </manifest>
